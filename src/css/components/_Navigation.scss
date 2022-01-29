@@ -31,7 +31,12 @@ nav {
                 padding: 10px;
                 border: 0;
                 border: 1px $pink solid;
+                padding-right: -25px;
             }
+        }
+
+        &.specialLi{
+            margin-right: 0;
         }
 
 

@@ -2,4 +2,9 @@
 .background{
     position: absolute;
     z-index: -1;
+
+    &.background__image{
+        object-fit: cover;
+    }
 }
+

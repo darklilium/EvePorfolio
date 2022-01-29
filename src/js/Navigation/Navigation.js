@@ -8,7 +8,7 @@ function Navigation () {
             <li><a>About Me</a></li>
             <li><a>Projects</a></li>
             <li><a>Blog</a></li>
-            <li><a className='specialLink'>Hire Me !</a></li>
+            <li className='specialLi'><a className='specialLink'>Hire Me !</a></li>
 
         </nav>
     )
