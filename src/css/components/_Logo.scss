@@ -1,0 +1,32 @@
+@import '../abstracts/globals';
+
+.Logo {
+   
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-style: normal;
+    color: $white ;
+    padding-left: $siteMargin;
+
+   
+    .Logo__upperTitle {
+        font-size: $small;
+        font-weight: 400;
+        text-align: center;
+        line-height: 13px;
+        margin-bottom: -7px;
+    }
+
+    .Logo__bottomTitle{
+        font-size: $large;
+        font-weight: bold;
+        line-height: 46px;
+        margin-bottom: -7px;
+    }
+
+}

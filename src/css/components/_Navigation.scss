@@ -1,0 +1,41 @@
+@import '../abstracts/globals';
+
+nav {
+   
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-right: $siteMargin;
+    color: $white ;
+    line-height: 21.6px;
+
+    li {
+        list-style: none;
+        font-size: $medium;
+        text-transform: uppercase;
+        margin: $itemsMargin;
+        font-weight: 400;  
+        font-style: normal; 
+
+        a {
+            &.current,
+            &:active{
+                padding-bottom: 10px;
+                border: 0;
+                border-bottom: 1px $green solid;
+            }
+
+            &.specialLink {
+                padding: 10px;
+                border: 0;
+                border: 1px $pink solid;
+            }
+        }
+
+
+    }
+
+    
+}
