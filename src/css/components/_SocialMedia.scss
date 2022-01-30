@@ -1,0 +1,16 @@
+@import '../abstracts/globals';
+
+
+.SocialMedia{
+    width: 48px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    border: 1px white solid;
+    justify-items: center;
+    align-content: center;
+    bottom: 0;
+    position: absolute;
+    align-items: center;
+    justify-content: space-evenly;
+}

@@ -4,7 +4,7 @@
 .introText {
     //positioning
     position: absolute;
-    bottom: 10%;
+    bottom: 6%;
     width: 100vw;
    
     //common styles for texts
@@ -27,5 +27,12 @@
        font-weight: 700;
        line-height: 57.6px;
 
+    }
+
+    img {
+      
+        width: 33px;
+        height: 33px;
+        padding-top: $itemsMargin;
     }
 }

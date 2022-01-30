@@ -19,8 +19,6 @@ function PortFolio() {
         <Logo />
         <Navigation />
       </header>
-      
-       
         <SocialMedia />
         <IntroText />
     </div>
